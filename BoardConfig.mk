@@ -83,3 +83,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # twrp
 -include $(LOCAL_PATH)/twrp.mk
+
+# multirom
+-include $(LOCAL_PATH)/multirom/multirom.mk
