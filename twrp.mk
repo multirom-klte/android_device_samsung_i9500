@@ -17,7 +17,7 @@ TW_THEME := portrait_hdpi
 # Add logcat support
 TWRP_INCLUDE_LOGCAT := true
 # Use toolbox instead of busybox
-TW_USE_TOOLBOX := true
+#TW_USE_TOOLBOX := true
 
 TW_BRIGHTNESS_PATH := /sys/class/backlight/panel/brightness
 TW_MAX_BRIGHTNESS := 255
@@ -31,3 +31,4 @@ TW_INCLUDE_CRYPTO := true
 # The kernel has exfat support.
 TW_NO_EXFAT_FUSE := true
 TW_EXCLUDE_SUPERSU := true
+TW_INCLUDE_NTFS_3G := true
